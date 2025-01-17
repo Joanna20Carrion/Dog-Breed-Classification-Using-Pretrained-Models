@@ -112,6 +112,10 @@ Model that you want to use: resnet
 The Number of Images: 5
 The Number of Dog Images: 3
 The Number of Not-a Dog Images: 2
+The PTC Match: 40.0
+The PTC Correct Dogs: 100.0
+The PTC Correct Breed: 0.0
+The PTC Correct NotDogs: 100.0
 
 The misclassified breeds are:
  What is the Breed Image Label?: dog

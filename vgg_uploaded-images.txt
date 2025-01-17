@@ -112,6 +112,10 @@ Model that you want to use: vgg
 The Number of Images: 5
 The Number of Dog Images: 3
 The Number of Not-a Dog Images: 2
+The PTC Match: 20.0
+The PTC Correct Dogs: 100.0
+The PTC Correct Breed: 0.0
+The PTC Correct NotDogs: 50.0
 
 The misclassified dogs are:
  What is the Dog Image Label?: cat

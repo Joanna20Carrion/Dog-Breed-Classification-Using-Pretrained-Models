@@ -607,6 +607,10 @@ Model that you want to use: resnet
 The Number of Images: 40
 The Number of Dog Images: 30
 The Number of Not-a Dog Images: 10
+The PTC Match: 82.5
+The PTC Correct Dogs: 100.0
+The PTC Correct Breed: 90.0
+The PTC Correct NotDogs: 90.0
 
 The misclassified dogs are:
  What is the Dog Image Label?: cat
@@ -624,4 +628,4 @@ The misclassified breeds are:
  What is the Breed Image Label?: great pyrenees
  What is the Classifier Label?: kuvasz
 
-** Total Elapsed Runtime: 0:0:1 
+** Total Elapsed Runtime: 0:0:5

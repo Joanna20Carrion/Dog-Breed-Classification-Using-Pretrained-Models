@@ -353,7 +353,7 @@ Real:                  dalmatian   Classifier: dalmatian, coach dog, carriage do
 Real:                  dalmatian   Classifier: dalmatian, coach dog, carriage dog
 
            fox_squirrel_01.jpg:
-Real:               fox squirrel   Classifier: fox squirrel, eastern fox squirrel, sciurus niger        
+Real:               fox squirrel   Classifier: fox squirrel, eastern fox squirrel, sciurus niger
 
                   gecko_02.jpg:
 Real:                      gecko   Classifier:            banded gecko, gecko
@@ -398,7 +398,7 @@ Real:                     poodle   Classifier:        standard poodle, poodle
 Real:                     poodle   Classifier:        standard poodle, poodle
 
                 Rabbit_002.jpg:
-Real:                     rabbit   Classifier: wood rabbit, cottontail, cottontail rabbit, rabbit       
+Real:                     rabbit   Classifier: wood rabbit, cottontail, cottontail rabbit, rabbit
 
        Saint_bernard_08010.jpg:
 Real:              saint bernard   Classifier:      saint bernard, st bernard
@@ -495,7 +495,7 @@ Real:                  dalmatian   Classifier: dalmatian, coach dog, carriage do
 PetLabelDog: 1  ClassLabelDog: 1
 
            fox_squirrel_01.jpg:
-Real:               fox squirrel   Classifier: fox squirrel, eastern fox squirrel, sciurus niger        
+Real:               fox squirrel   Classifier: fox squirrel, eastern fox squirrel, sciurus niger
 PetLabelDog: 0  ClassLabelDog: 0
 
                   gecko_02.jpg:
@@ -555,7 +555,7 @@ Real:                     poodle   Classifier:        standard poodle, poodle
 PetLabelDog: 1  ClassLabelDog: 1
 
                 Rabbit_002.jpg:
-Real:                     rabbit   Classifier: wood rabbit, cottontail, cottontail rabbit, rabbit       
+Real:                     rabbit   Classifier: wood rabbit, cottontail, cottontail rabbit, rabbit
 PetLabelDog: 0  ClassLabelDog: 0
 
        Saint_bernard_08010.jpg:
@@ -607,6 +607,10 @@ Model that you want to use: vgg
 The Number of Images: 40
 The Number of Dog Images: 30
 The Number of Not-a Dog Images: 10
+The PTC Match: 87.5
+The PTC Correct Dogs: 100.0
+The PTC Correct Breed: 93.3
+The PTC Correct NotDogs: 100.0
 
 The misclassified breeds are:
  What is the Breed Image Label?: beagle
@@ -616,4 +620,4 @@ The misclassified breeds are:
  What is the Breed Image Label?: great pyrenees
  What is the Classifier Label?: kuvasz
 
-** Total Elapsed Runtime: 0:0:6 
+** Total Elapsed Runtime: 0:0:6

@@ -607,6 +607,10 @@ Model that you want to use: alexnet
 The Number of Images: 40
 The Number of Dog Images: 30
 The Number of Not-a Dog Images: 10
+The PTC Match: 75.0
+The PTC Correct Dogs: 100.0
+The PTC Correct Breed: 80.0
+The PTC Correct NotDogs: 100.0
 
 The misclassified breeds are:
  What is the Breed Image Label?: beagle
@@ -632,4 +636,4 @@ The misclassified breeds are:
  What is the Breed Image Label?: great pyrenees
  What is the Classifier Label?: kuvasz
 
-** Total Elapsed Runtime: 0:0:1 
+** Total Elapsed Runtime: 0:0:2
