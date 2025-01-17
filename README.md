@@ -34,11 +34,6 @@ Este proyecto utiliza redes neuronales convolucionales (CNN) preentrenadas para 
   - `argparse`
   - Otros paquetes especificados en el código.
 
-Instala las dependencias ejecutando:
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
 ## Ejecución
