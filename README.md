@@ -21,9 +21,8 @@ Este proyecto utiliza redes neuronales convolucionales (CNN) preentrenadas para 
 
 ### Carpetas
 
-- **images/**: Contiene las imágenes que serán analizadas.
-- **results/**: Almacena las estadísticas generadas después del análisis.
-- **models/**: Almacena los modelos CNN utilizados para la clasificación.
+- **pet_images/**: Contiene las imágenes brindadas que serán analizadas.
+- **uploaded_images/**: Contiene mis imágenes recolectadas que serán analizadas.
 
 ---
 
@@ -49,7 +48,7 @@ pip install -r requirements.txt
 1. Coloca las imágenes en la carpeta `images/`.
 2. Ejecuta el script principal desde la terminal:
    ```bash
-   python check_images.py --dir images --arch resnet --dogfile dognames.txt
+   python check_images.py --dir pet_images/ --arch resnet --dogfile dognames.txt
    ```
    - **`--dir`**: Directorio con las imágenes.
    - **`--arch`**: Modelo CNN a utilizar (`resnet`, `alexnet`, `vgg`).
