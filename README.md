@@ -1,55 +1,55 @@
 # Use a Pre-trained Image Classifier to Identify Dog Breeds
 
-Este proyecto utiliza redes neuronales convolucionales (CNN) preentrenadas para clasificar imágenes de mascotas, específicamente perros. Permite evaluar y comparar el rendimiento de diferentes modelos en la clasificación de imágenes, proporcionando estadísticas detalladas sobre la precisión de las clasificaciones.
+This project uses pre-trained Convolutional Neural Networks (CNNs) to classify pet images, specifically dogs. It allows evaluating and comparing the performance of different models in image classification, providing detailed statistics about classification accuracy.
 
 ---
 
-## Estructura del Proyecto
+## Project Structure
 
-### Archivos Principales
+### Main Files
 
 - **check_images.py**: 
-  - Script principal que gestiona el flujo completo de la clasificación.
-  - Extrae etiquetas de las imágenes a partir de sus nombres de archivo.
-  - Utiliza modelos CNN preentrenados para clasificar las imágenes.
-  - Genera estadísticas sobre el rendimiento del modelo.
+  - Main script that manages the entire classification workflow.
+  - Extracts image labels from their filenames.
+  - Uses pre-trained CNN models to classify the images.
+  - Generates statistics about the model's performance.
 
 - **print_results.py**: 
-  - Imprime los resultados del análisis de clasificación.
-  - Muestra estadísticas clave como porcentajes de coincidencias y clasificaciones correctas.
-  - Permite imprimir detalles de imágenes mal clasificadas (perros y razas).
+  - Prints the results of the classification analysis.
+  - Displays key statistics such as match percentages and correct classifications.
+  - Allows printing details of misclassified images (dogs and breeds).
 
-### Carpetas
+### Folders
 
-- **pet_images/**: Contiene las imágenes brindadas que serán analizadas.
-- **uploaded_images/**: Contiene mis imágenes recolectadas que serán analizadas.
+- **pet_images/**: Contains the provided images to be analyzed.
+- **uploaded_images/**: Contains collected images to be analyzed.
 
 ---
 
-## Requisitos del Sistema
+## System Requirements
 
-- Python 3.7 o superior.
-- Paquetes necesarios:
+- Python 3.7 or higher.
+- Required packages:
   - `numpy`
   - `argparse`
-  - Otros paquetes especificados en el código.
+  - Other packages specified in the code.
 
 ---
 
-## Ejecución
+## Execution
 
-### Uso Básico
+### Basic Usage
 
-1. Coloca las imágenes en la carpeta `images/`.
-2. Ejecuta el script principal desde la terminal:
+1. Place the images in the `pet_images/` folder.
+2. Run the main script from the terminal:
    ```bash
    python check_images.py --dir pet_images/ --arch resnet --dogfile dognames.txt
    ```
-   - **`--dir`**: Directorio con las imágenes.
-   - **`--arch`**: Modelo CNN a utilizar (`resnet`, `alexnet`, `vgg`).
-   - **`--dogfile`**: Archivo con los nombres de las razas reconocidas.
+   - **`--dir`**: Directory containing the images.
+   - **`--arch`**: CNN model to use (`resnet`, `alexnet`, `vgg`).
+   - **`--dogfile`**: File containing the recognized dog breed names.
 
-### Ejemplo de Resultados
+### Example Results
 
 ```
 Model that you want to use: resnet
@@ -64,33 +64,34 @@ The PTC Correct NotDogs: 100.0
 
 ---
 
-## Personalización
+## Customization
 
-Si necesitas ajustar el formato de los resultados o los parámetros:
+If you need to adjust the format of the results or the parameters:
 
-1. Abre `print_results.py`.
-2. Edita las líneas que formatean las salidas de las estadísticas. Por ejemplo:
+1. Open `print_results.py`.
+2. Edit the lines that format the output statistics. For example:
    ```python
    print("The PTC Correct Dogs: {:.1f}%".format(results_stats_dic['pct_correct_dogs']))
    ```
-   Esto ajustará los porcentajes mostrados a un solo decimal.
+   This will adjust the displayed percentages to one decimal place.
 
 ---
 
-## Notas
+## Notes
 
-- Asegúrate de que las imágenes estén en un formato compatible (JPG).
-- Verifica que las rutas y nombres de los archivos sean correctos.
-- Revisa que el modelo especificado en `--arch` sea válido.
+- Ensure that the images are in a compatible format (JPG).
+- Verify that file paths and names are correct.
+- Check that the model specified in `--arch` is valid.
 
 ---
 
-## Autor
-**Joanna Alexandra Carrión Pérez**: Bachiller de Ingeniería Electrónica. Apasionada por la Ciencia de Datos y la Inteligencia Artificial. [LinkedIn](https://www.linkedin.com/in/joanna-carrion-perez/)
+## Author
+**Joanna Alexandra Carrión Pérez**: Bachelor of Electronic Engineering. Passionate about Data Science and Artificial Intelligence. [LinkedIn](https://www.linkedin.com/in/joanna-carrion-perez/)
 
-## Contacto
-Para cualquier duda o sugerencia, contáctame a través de **joannacarrion14@gmail.com**.
+## Contact
+For any questions or suggestions, feel free to reach out via **joannacarrion14@gmail.com**.
 
-## Contribuciones
-¡Contribuciones son bienvenidas! Si tienes ideas o mejoras, no dudes en hacer un fork del repositorio y enviar un pull request. 
+## Contributions
+Contributions are welcome! If you have ideas or improvements, feel free to fork the repository and submit a pull request.
+
 
