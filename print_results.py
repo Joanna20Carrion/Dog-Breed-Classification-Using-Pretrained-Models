@@ -64,7 +64,11 @@ def print_results(results_dic, results_stats_dic, model,
     """    
     print('\nModel that you want to use: {}'.format(model))
     print('\nThe Number of Images: {} \nThe Number of Dog Images: {} \nThe Number of Not-a Dog Images: {}'.format(results_stats_dic['n_images'], results_stats_dic['n_dogs_img'], results_stats_dic['n_notdogs_img']))
-    
+    print("The PTC Match: {:.1f}".format(results_stats_dic['pct_match']))
+    print("The PTC Correct Dogs: {:.1f}".format(results_stats_dic['pct_correct_dogs']))
+    print("The PTC Correct Breed: {:.1f}".format(results_stats_dic['pct_correct_breed']))
+    print("The PTC Correct NotDogs: {:.1f}".format(results_stats_dic['pct_correct_notdogs']))
+
     for k in results_stats_dic:
         if k[0] == 'd': print('{}: {}'.format(k, results_stats_dic[k]))
             
