@@ -1,4 +1,4 @@
-# Project Dogs
+# Use a Pre-trained Image Classifier to Identify Dog Breeds
 
 Este proyecto utiliza redes neuronales convolucionales (CNN) preentrenadas para clasificar imágenes de mascotas, específicamente perros. Permite evaluar y comparar el rendimiento de diferentes modelos en la clasificación de imágenes, proporcionando estadísticas detalladas sobre la precisión de las clasificaciones.
 
