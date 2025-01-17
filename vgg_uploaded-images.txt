@@ -1,0 +1,132 @@
+Command Line Arguments:
+     dir = uploaded_images/
+    arch = vgg
+ dogfile = dognames.txt
+
+The ten filenames in pet_images folder are:
+Filename =  Cat_01.jpg     Label =  cat
+
+ 1 file:                Cat_01.jpg
+
+The empty dictionary has 0 items in total
+Filename =  Dog_01.jpg     Label =  dog
+
+ 2 file:                Dog_01.jpg
+
+The empty dictionary has 1 items in total
+Filename =  Dog_02.jpg     Label =  dog
+
+ 3 file:                Dog_02.jpg
+
+The empty dictionary has 2 items in total
+Filename =  Dog_03.jpg     Label =  dog
+
+ 4 file:                Dog_03.jpg
+
+The empty dictionary has 3 items in total
+Filename =  Pen_01.jpg     Label =  pen
+
+ 5 file:                Pen_01.jpg
+
+The empty dictionary has 4 items in total
+
+All key-value pairs in r_dic:
+
+Filename =  Cat_01.jpg     Dog label =  cat
+
+Filename =  Dog_01.jpg     Dog label =  dog
+
+Filename =  Dog_02.jpg     Dog label =  dog
+
+Filename =  Dog_03.jpg     Dog label =  dog
+
+Filename =  Pen_01.jpg     Dog label =  pen
+
+The empty dictionary has 5 items in total
+
+Pet Image Label Dictionary has 5 key-value pairs.
+Below are 5 of them:
+ 1 key:                     Cat_01.jpg  label:                        cat
+ 2 key:                     Dog_01.jpg  label:                        dog
+ 3 key:                     Dog_02.jpg  label:                        dog
+ 4 key:                     Dog_03.jpg  label:                        dog
+ 5 key:                     Pen_01.jpg  label:                        pen
+
+     MATCH:
+
+                    Pen_01.jpg:
+Real:                        pen   Classifier: ballpoint, ballpoint pen, ballpen, biro
+
+ NOT A MATCH:
+
+                    Cat_01.jpg:
+Real:                        cat   Classifier:                       papillon
+
+                    Dog_01.jpg:
+Real:                        dog   Classifier:               golden retriever
+
+                    Dog_02.jpg:
+Real:                        dog   Classifier:               golden retriever
+
+                    Dog_03.jpg:
+Real:                        dog   Classifier:  walker hound, walker foxhound
+
+# Total Images 5 # Matches: 1 # NOT Matches: 4
+
+     MATCH:
+
+                    Pen_01.jpg:
+Real:                        pen   Classifier: ballpoint, ballpoint pen, ballpen, biro
+PetLabelDog: 0  ClassLabelDog: 0
+
+ NOT A MATCH:
+
+                    Cat_01.jpg:
+Real:                        cat   Classifier:                       papillon
+PetLabelDog: 0  ClassLabelDog: 1
+
+                    Dog_01.jpg:
+Real:                        dog   Classifier:               golden retriever
+PetLabelDog: 1  ClassLabelDog: 1
+
+                    Dog_02.jpg:
+Real:                        dog   Classifier:               golden retriever
+PetLabelDog: 1  ClassLabelDog: 1
+
+                    Dog_03.jpg:
+Real:                        dog   Classifier:  walker hound, walker foxhound
+PetLabelDog: 1  ClassLabelDog: 1
+
+# Total Images 5 # Matches: 1 # NOT Matches: 4
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  5  N Dog Images:  3  N NotDog Images:  2
+Pct Corr dog: 100.0 Pct Corr NOTdog:  50.0  Pct Corr Breed:   0.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  5  N Dog Images:  3  N NotDog Images:  2
+Pct Corr dog: 100.0 Pct Corr NOTdog:  50.0  Pct Corr Breed:   0.0
+
+Model that you want to use: vgg
+
+The Number of Images: 5
+The Number of Dog Images: 3
+The Number of Not-a Dog Images: 2
+
+The misclassified dogs are:
+ What is the Dog Image Label?: cat
+ What is the Classifier Label?: papillon
+
+The misclassified breeds are:
+ What is the Breed Image Label?: dog
+ What is the Classifier Label?: golden retriever
+
+The misclassified breeds are:
+ What is the Breed Image Label?: dog
+ What is the Classifier Label?: golden retriever
+
+The misclassified breeds are:
+ What is the Breed Image Label?: dog
+ What is the Classifier Label?: walker hound, walker foxhound
+
+** Total Elapsed Runtime: 0:0:1
