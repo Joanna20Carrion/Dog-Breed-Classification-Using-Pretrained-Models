@@ -1,32 +1,37 @@
-# Use a Pre-trained Image Classifier to Identify Dog Breeds
+# 🐶 Use a Pre-trained Image Classifier to Identify Dog Breeds
+
+![Python](https://img.shields.io/badge/Python-3.7%2B-blue?style=flat&logo=python&logoColor=white)
+![CNN](https://img.shields.io/badge/CNN-Pretrained-green?style=flat)
+![ResNet](https://img.shields.io/badge/Model-ResNet-red?style=flat)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 This project uses pre-trained Convolutional Neural Networks (CNNs) to classify pet images, specifically dogs. It allows evaluating and comparing the performance of different models in image classification, providing detailed statistics about classification accuracy.
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ### Main Files
 
-- **check_images.py**: 
+- 📜 **check_images.py**: 
   - Main script that manages the entire classification workflow.
   - Extracts image labels from their filenames.
   - Uses pre-trained CNN models to classify the images.
   - Generates statistics about the model's performance.
 
-- **print_results.py**: 
+- 📜 **print_results.py**: 
   - Prints the results of the classification analysis.
   - Displays key statistics such as match percentages and correct classifications.
   - Allows printing details of misclassified images (dogs and breeds).
 
 ### Folders
 
-- **pet_images/**: Contains the provided images to be analyzed.
-- **uploaded_images/**: Contains collected images to be analyzed.
+- 📁 **pet_images/**: Contains the provided images to be analyzed.
+- 📁 **uploaded_images/**: Contains collected images to be analyzed.
 
 ---
 
-## System Requirements
+## 🔧 System Requirements
 
 - Python 3.7 or higher.
 - Required packages:
@@ -36,9 +41,9 @@ This project uses pre-trained Convolutional Neural Networks (CNNs) to classify p
 
 ---
 
-## Execution
+## ▶️ Execution
 
-### Basic Usage
+### 📌 Basic Usage
 
 1. Place the images in the `pet_images/` folder.
 2. Run the main script from the terminal:
@@ -49,7 +54,7 @@ This project uses pre-trained Convolutional Neural Networks (CNNs) to classify p
    - **`--arch`**: CNN model to use (`resnet`, `alexnet`, `vgg`).
    - **`--dogfile`**: File containing the recognized dog breed names.
 
-### Example Results
+### 📊 Example Results
 
 ```
 Model that you want to use: resnet
@@ -64,7 +69,7 @@ The PTC Correct NotDogs: 100.0
 
 ---
 
-## Customization
+## 🎯 Customization
 
 If you need to adjust the format of the results or the parameters:
 
@@ -77,7 +82,7 @@ If you need to adjust the format of the results or the parameters:
 
 ---
 
-## Notes
+## ℹ️ Notes
 
 - Ensure that the images are in a compatible format (JPG).
 - Verify that file paths and names are correct.
@@ -85,13 +90,13 @@ If you need to adjust the format of the results or the parameters:
 
 ---
 
-## Author
-**Joanna Alexandra Carrión Pérez**: Bachelor of Electronic Engineering. Passionate about Data Science and Artificial Intelligence. [LinkedIn](https://www.linkedin.com/in/joanna-carrion-perez/)
+## 👤 Author
+🎓 Bachelor in Electronic Engineering  
+💡 Passionate about Data Science and Artificial Intelligence  
+🔗 ![LinkedIn](https://img.shields.io/badge/LinkedIn-Joanna%20Carrión%20Pérez-blue?style=flat&logo=linkedin) [LinkedIn](https://www.linkedin.com/in/joanna-carrion-perez/)
 
-## Contact
-For any questions or suggestions, feel free to reach out via **joannacarrion14@gmail.com**.
+## 📩 Contact
+📧 For any questions or suggestions, feel free to reach out via **joannacarrion14@gmail.com**.
 
-## Contributions
-Contributions are welcome! If you have ideas or improvements, feel free to fork the repository and submit a pull request.
-
-
+## 🤝 Contributions
+Contributions are welcome! If you have ideas or improvements, feel free to fork the repository and submit a pull request. 🚀
